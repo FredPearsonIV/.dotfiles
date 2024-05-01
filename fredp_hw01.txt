@@ -1,0 +1,15 @@
+mkdir .dotfiles
+fredp@cocsce-l1d43-18:~$ ls
+fredp@cocsce-l1d43-18:~$ ls -a
+fredp@cocsce-l1d43-18:~$ cd .dotfiles
+fredp@cocsce-l1d43-18:~/.dotfiles$ ls
+fredp@cocsce-l1d43-18:~/.dotfiles$ ls -a
+fredp@cocsce-l1d43-18:~/.dotfiles$ touch README.md
+fredp@cocsce-l1d43-18:~/.dotfiles$ nano README.md
+fredp@cocsce-l1d43-18:~/.dotfiles$ cat README.md
+fredp@cocsce-l1d43-18:~/.dotfiles$ git init
+fredp@cocsce-l1d43-18:~/.dotfiles$ git add --all
+fredp@cocsce-l1d43-18:~/.dotfiles$ git commit -m "INIT commit"
+fredp@cocsce-l1d43-18:~/.dotfiles$ git branch -M main
+fredp@cocsce-l1d43-18:~/.dotfiles$ git remote add origin git@github.com:FredPearsonIV/.dotfiles
+fredp@cocsce-l1d43-18:~/.dotfiles$ git push -u origin main
